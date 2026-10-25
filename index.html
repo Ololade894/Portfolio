@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ololade — Frontend Developer crafting fast, accessible, and beautiful web experiences."
+    />
+    <meta name="theme-color" content="#0c0f14" />
+    <title>Ololade | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Ololade home">
+          <span class="brand-mark" aria-hidden="true">&lt;O/&gt;</span>
+          <span class="brand-text">Ololade</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="sr-only">Menu</span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a
+          href="https://wa.me/2348087957196"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary header-cta"
+          >Let's talk</a
+        >
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span>
+              Available for freelance &amp; full-time
+            </p>
+            <h1 id="hero-heading">
+              Hi, I'm <span class="text-gradient">Ololade</span> — Frontend
+              Developer
+            </h1>
+            <p class="hero-lead">
+              I turn ideas into polished, performant interfaces with clean HTML,
+              modern CSS, and thoughtful JavaScript. Focused on accessibility,
+              responsive design, and delightful user experiences.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View my work</a>
+              <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+            <ul class="hero-stats" aria-label="Highlights">
+              <li><strong>3+</strong> years building for the web</li>
+              <li><strong>20+</strong> projects shipped</li>
+              <li><strong>100%</strong> mobile-first mindset</li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <div class="code-card">
+              <div class="code-card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="code-card-title">ololade.dev.tsx</span>
+              </div>
+              <pre
+                class="code-card-body"
+              ><code><span class="tok-keyword">const</span> <span class="tok-name">developer</span> = {
+  <span class="tok-prop">name</span>: <span class="tok-string">'Ololade'</span>,
+  <span class="tok-prop">role</span>: <span class="tok-string">'Frontend Developer'</span>,
+  <span class="tok-prop">stack</span>: [
+    <span class="tok-string">'React'</span>,
+    <span class="tok-string">'TypeScript'</span>,
+    <span class="tok-string">'CSS'</span>,
+  ],
+  <span class="tok-prop">build</span>: <span class="tok-string">'interfaces people love'</span>,
+};</code></pre>
+            </div>
+            <div class="orbit orbit-a" aria-hidden="true"></div>
+            <div class="orbit orbit-b" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about" aria-labelledby="about-heading">
+        <div class="container about-grid">
+          <div class="section-intro">
+            <span class="section-label">About</span>
+            <h2 id="about-heading">
+              Building the web, one component at a time
+            </h2>
+          </div>
+          <div class="about-content">
+            <p>
+              I'm a frontend developer who cares about the details users feel —
+              smooth interactions, readable typography, and layouts that work on
+              every screen size. I collaborate closely with designers and
+              backend teams to ship products that are maintainable and fast.
+            </p>
+            <p>
+              When I'm not coding, I'm exploring new CSS features, refining
+              design systems, or contributing to open source. I believe great
+              frontend work sits at the intersection of engineering discipline
+              and creative craft.
+            </p>
+            <ul class="about-tags">
+              <li>UI Engineering</li>
+              <li>Design Systems</li>
+              <li>Performance</li>
+              <li>a11y</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section-muted"
+        id="skills"
+        aria-labelledby="skills-heading"
+      >
+        <div class="container">
+          <div class="section-header center">
+            <span class="section-label">Skills</span>
+            <h2 id="skills-heading">Tools I use to ship quality UI</h2>
+            <p class="section-desc">
+              From prototype to production — semantic markup, scalable styles,
+              and reliable client-side logic.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+              <h3>Core Web</h3>
+              <p>
+                HTML5, CSS3, JavaScript (ES6+), responsive layouts, Flexbox
+                &amp; Grid.
+              </p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">{ }</div>
+              <h3>Frameworks</h3>
+              <p>
+                React, Next.js, Vue — component architecture, hooks, and state
+                patterns.
+              </p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">TS</div>
+              <h3>TypeScript</h3>
+              <p>
+                Type-safe components, interfaces, and safer refactors across
+                codebases.
+              </p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">CSS</div>
+              <h3>Styling</h3>
+              <p>
+                Tailwind, Sass, CSS Modules, animations, and design-token
+                workflows.
+              </p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">⚡</div>
+              <h3>Performance</h3>
+              <p>
+                Core Web Vitals, lazy loading, bundle awareness, and
+                lighthouse-driven fixes.
+              </p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">♿</div>
+              <h3>Accessibility</h3>
+              <p>
+                WCAG-minded markup, keyboard flows, ARIA when needed, and
+                inclusive UX.
+              </p>
+            </article>
+          </div>
+          <div class="tech-strip" aria-label="Technologies">
+            <span>Git</span>
+            <span>Figma</span>
+            <span>Vite</span>
+            <span>REST APIs</span>
+            <span>Jest</span>
+            <span>Storybook</span>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Projects</span>
+            <h2 id="projects-heading">Selected work</h2>
+            <p class="section-desc">
+              A snapshot of interfaces and apps I've helped design and build.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div
+                class="project-visual project-visual-1"
+                role="img"
+                aria-label="Dashboard project preview"
+              >
+                <img src="Analytics Hub.png" />
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Dashboard</span>
+                </div>
+                <h3>Analytics Hub</h3>
+                <p>
+                  Real-time metrics dashboard with customizable widgets, dark
+                  mode, and role-based views for operations teams.
+                </p>
+                <div class="project-links">
+                  <a href="http://127.0.0.1:5500/index.html" class="link-arrow"
+                    >Live demo</a
+                  >
+                  <!--<a href="#" class="link-muted">Source</a>-->
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-visual project-visual-2"
+                role="img"
+                aria-label="E-commerce project preview"
+              ></div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">Next.js</span>
+                  <span class="project-tag">E-commerce</span>
+                </div>
+                <h3>ShopWave Storefront</h3>
+                <p>
+                  Headless commerce frontend with optimized product listings,
+                  cart flows, and checkout UX tuned for conversion.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="link-arrow">Live demo</a>
+                  <!--<a href="#" class="link-muted">Source</a>-->
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-visual project-visual-3"
+                role="img"
+                aria-label="Education site preview"
+              >
+                <img src="New Dawn.png" />
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">HTML/CSS</span>
+                  <span class="project-tag">Education</span>
+                </div>
+                <h3>New Dawn Intl' School</h3>
+                <p>
+                  Multi-page responsive school website with admissions funnel,
+                  accessible navigation, and brand-aligned visual design.
+                </p>
+                <div class="project-links">
+                  <a href="http://127.0.0.1:5502/index.html" class="link-arrow"
+                    >View site</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-visual project-visual-4"
+                role="img"
+                aria-label="Component library preview"
+              ></div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">Design System</span>
+                  <span class="project-tag">Storybook</span>
+                </div>
+                <h3>UI Kit Nova</h3>
+                <p>
+                  Documented component library with tokens, variants, and usage
+                  guidelines for cross-team consistency.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="link-arrow">Live demo</a>
+                  <a href="#" class="link-muted">Source</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section-muted"
+        id="experience"
+        aria-labelledby="experience-heading"
+      >
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Experience</span>
+            <h2 id="experience-heading">Where I've grown</h2>
+          </div>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2023">2023 — Present</time>
+                <h3>Senior Frontend Developer</h3>
+                <p class="timeline-org">Product Studio · Remote</p>
+                <p>
+                  Lead UI implementation for SaaS clients, mentor junior
+                  developers, and establish frontend standards across projects.
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2021">2021 — 2023</time>
+                <h3>Frontend Developer</h3>
+                <p class="timeline-org">Digital Agency · Hybrid</p>
+                <p>
+                  Built marketing sites and web apps in React, integrated CMS
+                  and APIs, and improved mobile performance scores by 40% on
+                  average.
+                </p>
+              </div>
+              .
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2020">2020 — 2021</time>
+                <h3>Junior Web Developer</h3>
+                <p class="timeline-org">Startup · On-site</p>
+                <p>
+                  Shipped landing pages and internal tools, learned Git
+                  workflows, and paired with designers on pixel-perfect
+                  implementations.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section
+        class="section contact-section"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container contact-grid">
+          <div class="contact-intro">
+            <span class="section-label">Contact</span>
+            <h2 id="contact-heading">Let's build something together</h2>
+            <p>
+              Tell me about your product, timeline, or idea — I'll get back
+              within 1–2 business days.
+            </p>
+            <ul class="contact-direct">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:hello@ololade.dev"
+                  >oladepoololade23@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>Oyo State, Nigeria · Open to remote</span>
+              </li>
+            </ul>
+            <div class="social-links" aria-label="Social links">
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/hadijat-ololade-529583439/"
+                target="_blank"
+                aria-label="LinkedIn"
+                >LinkedIn</a
+              >
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (Twitter)"
+                >X</a
+              >
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+              <span class="field-error" id="name-error" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+              <span class="field-error" id="email-error" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <span class="field-error" id="message-error" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <a
+                href="https://wa.me/2348087957196"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Send message</a
+              >
+            </button>
+            <p
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          &copy; <span id="year"></span> Ololade. Crafted with care on the
+          frontend.
+        </p>
+        <a href="#top" class="back-top">Back to top ↑</a>
+      </div>
+    </footer>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
